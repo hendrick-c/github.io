@@ -1,0 +1,487 @@
+{
+"$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+"hideSelection": true,
+"hideColumnHeader": true,
+"rowFormatter": {
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "column",
+"width": "100%",
+"padding": "0",
+"margin-bottom": "10px"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"width": "100%",
+"background-color": "#0078d4",
+"color": "#ffffff",
+"padding": "10px",
+"font-size": "16px",
+"text-align": "center",
+"margin-bottom": "0",
+"border-bottom": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "span",
+"style": {
+"font-weight": "bold",
+"margin-right": "5px"
+},
+"txtContent": "Data Initiative:"
+},
+{
+"elmType": "span",
+"style": {
+"font-weight": "normal"
+},
+"txtContent": "[$Title]"
+}
+]
+},
+// ...existing code for top table section...
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "column",
+"width": "100%",
+"border-collapse": "collapse",
+"border-top": "1px solid #c8c8c8"
+},
+"children": [
+// ...existing rows for Description, Strategy, Business Objective, Business Problem...
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "row",
+"width": "100%",
+"border-bottom": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"width": "150px",
+"font-weight": "bold",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "Business Sponsor"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"width": "300px",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "[$BusinessSponsor]"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"width": "150px",
+"font-weight": "bold",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "Constraints"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"flex-grow": "1"
+},
+"txtContent": "[$Constraints]"
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "row",
+"width": "100%",
+"border-bottom": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"width": "150px",
+"font-weight": "bold",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "Decisions"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"width": "300px",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "[$KeyDecisions]"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"width": "150px",
+"font-weight": "bold",
+"border-right": "1px solid #c8c8c8"
+},
+"txtContent": "Analyses"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"flex-grow": "1"
+},
+"txtContent": "[$Analysis]"
+}
+]
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"width": "100%",
+"background-color": "#0078d4",
+"color": "#ffffff",
+"padding": "10px",
+"font-size": "16px",
+"text-align": "center",
+"margin-top": "0",
+"border-top": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "span",
+"style": {
+"font-weight": "bold"
+},
+"txtContent": "Responsibilities and Success Measures"
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "row",
+"width": "100%",
+"border-bottom": "1px solid #c8c8c8",
+"margin-top": "0"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "column",
+"width": "33.33%",
+"border-right": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8",
+"text-align": "center"
+},
+"txtContent": "N11 — Department"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8"
+},
+"txtContent": "Responsibilities"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"display": "flex",
+"flex-direction": "column"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Responsibility1]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Responsibility2]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Responsibility3]"
+},
+{
+"elmType": "div",
+"txtContent": "• [$N11Responsibility4]"
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8",
+"border-top": "1px solid #c8c8c8"
+},
+"txtContent": "Measures"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"display": "flex",
+"flex-direction": "column"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Measure1]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Measure2]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$N11Measure3]"
+},
+{
+"elmType": "div",
+"txtContent": "• [$N11Measure4]"
+}
+]
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "column",
+"width": "33.33%",
+"border-right": "1px solid #c8c8c8"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8",
+"text-align": "center"
+},
+"txtContent": "Team"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"background-color": "#f0f0f0",
+"min-height": "100px",
+"border-bottom": "1px solid #c8c8c8"
+},
+"txtContent": "[$TeamMembers]"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8"
+},
+"txtContent": "Analytics"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8"
+},
+"txtContent": "Responsibilities"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"display": "flex",
+"flex-direction": "column"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$AnalyticsResponsibility1]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$AnalyticsResponsibility2]"
+},
+{
+"elmType": "div",
+"txtContent": "• [$AnalyticsResponsibility3]"
+}
+]
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"display": "flex",
+"flex-direction": "column",
+"width": "33.33%"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8",
+"text-align": "center"
+},
+"txtContent": "IT"
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8"
+},
+"txtContent": "Responsibilities"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"display": "flex",
+"flex-direction": "column"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$ITResponsibility1]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$ITResponsibility2]"
+},
+{
+"elmType": "div",
+"txtContent": "• [$ITResponsibility3]"
+}
+]
+},
+{
+"elmType": "div",
+"style": {
+"background-color": "#deebf7",
+"padding": "8px",
+"font-weight": "bold",
+"border-bottom": "1px solid #c8c8c8",
+"border-top": "1px solid #c8c8c8"
+},
+"txtContent": "Measures"
+},
+{
+"elmType": "div",
+"style": {
+"padding": "8px",
+"display": "flex",
+"flex-direction": "column"
+},
+"children": [
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$ITMeasure1]"
+},
+{
+"elmType": "div",
+"style": {
+"margin-bottom": "4px"
+},
+"txtContent": "• [$ITMeasure2]"
+},
+{
+"elmType": "div",
+"txtContent": "• [$ITMeasure3]"
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}
+}
